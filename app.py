@@ -22,6 +22,6 @@ quotes = [
 if st.button("新しい名言を受け取る"):
     selected_quote = random.choice(quotes)
     st.snow() # お祝いの風船
-    st.warning(selected_quote)
+    st.blob(selected_quote)
 else:
     st.info("下のボタンをクリックしてください！")
