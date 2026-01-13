@@ -21,7 +21,7 @@ quotes = [
 # ボタンが押されたらランダムに選ぶ
 if st.button("新しい名言を受け取る"):
     selected_quote = random.choice(quotes)
-    st.balloons() # お祝いの風船
-    st.success(selected_quote)
+    st.snow() # お祝いの風船
+    st.warning(selected_quote)
 else:
     st.info("下のボタンをクリックしてください！")
